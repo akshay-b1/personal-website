@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Poppins:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(147,67,67,1) 0%, rgba(111,27,27,1) 90% ); 
+}
+
+.socials {
+    max-width: 100%;
+}
+
+
+h1,h3,h4 {
+    margin-bottom: 15px;
+}
+
+.container {
+    max-width: 2000px;
+    margin: 0 auto;
+    padding:0 30px 183.5px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.navbar{
+    color: #fff;
+}
+
+.navbar a:hover {
+    color:rgba(253, 253, 253, 0.685) ;
+}
+
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.05%;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin-right: 40px;
+    margin-top: -20px;
+}
+
+.header .container {
+    color: #fff;
+    text-align: center;
+    margin-top: 3%;
+    font-size: 130%;
+}
+
+.socials .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 5px;
+    color: #fff;
+}
+
+.container .logo {
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.container img {
+    max-width: 140px;
+    margin-left: -25px;
+    margin-top: 5px;
+}
+
+.header h4 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 4s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+  a:visited { 
+    text-decoration: none; 
+    color: #fff; 
+   }
+
+
+   /* ------ ABOUT US ------ */
+   
+
+.sub-header .container {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    color: #fff;
+    font-size: large;
+}
+
+.sub-header {
+    background: rgba(145, 143, 143, 0.815);
+    border-radius: 20px;
+    margin: 20px 10px;
+    max-width: 700px;
+    max-height: 200px;
+    padding: 15px 5px;
+    box-shadow: 4px 3px 5px rgba(46, 42, 42, 0.6);
+    margin-left: 80px;
+}
+
+.about-socials .about-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 5px;
+    color: #fff;
+}
+
+
+.about-container .logo {
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 250px;
+}
+
+.about-container img {
+    max-width: 140px;
+    margin-left: -25px;
+    margin-top: 5px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+   }
+
+.pictureframe .picture {
+    margin-right:450px;
+    margin-top: -360px;
+    margin-left: auto;
+    display:block;
+    height:500px;
+    width: 350px;
+    box-shadow: 10px 10px 5px rgba(46, 42, 42, 0.6);
+    -moz-box-shadow: 10px 10px 5px rgba(46, 42, 42, 0.6);
+    -webkit-box-shadow: 10px 10px 5px rgba(46, 42, 42, 0.6);
+    -khtml-box-shadow: 10px 10px 5px rgba(46, 42, 42, 0.6);
+   }
